@@ -67,12 +67,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+Generate interactive stories from YAML specifciation of short plot outlines.
+
 [![Outline Screen Shot][outline-screenshot]](/examples/abandoned_ship/abandoned_ship.yml)
 [![Generated Name Screen Shot][generated-screenshot]](/examples/abandoned_ship/generated/abandoned_ship.hermes.0.twee)
+Generated with Nous Hermes. Rendered in Chapbook.
 
 
-
-Generate interactive stories from YAML specifciation of short plot outlines.
 
 ### How It Works
 YAML outline specification is parsed, converted into a graph, and all simple paths through the story graph are generated.
