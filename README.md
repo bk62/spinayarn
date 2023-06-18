@@ -54,6 +54,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
+    <li><a href="#outline-spec">Outline Spec</a></li>
     <li><a href="#examples">Examples</a></li>
     <li><a href="#llm-models">LLM Models</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
@@ -66,8 +67,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<!-- [![Outline Screen Shot][outline-screenshot]](/examples/abandoned_ship/abandoned_ship.yml)
-[![Generated Name Screen Shot][generated-screenshot]](/examples/abandoned_ship/generated/abandoned_ship.hermes.0.twee) -->
+[![Outline Screen Shot][outline-screenshot]](/examples/abandoned_ship/abandoned_ship.yml)
+[![Generated Name Screen Shot][generated-screenshot]](/examples/abandoned_ship/generated/abandoned_ship.hermes.0.twee)
+
+
 
 Generate interactive stories from YAML specifciation of short plot outlines.
 
@@ -164,6 +167,7 @@ More usage examples in [notebooks](/notebooks/).
 
 ## Outline Spec
 
+A YAML spec for specifying interactive story outlines.
 
 TODO
 
