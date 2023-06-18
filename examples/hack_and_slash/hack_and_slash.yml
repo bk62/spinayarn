@@ -1,0 +1,47 @@
+story_outline:
+    title: Hack and Slash
+    setting: Dark medieval forest at night next to an old Roman road
+    pov: first person
+    nodes:
+        start:
+            plot: Peter, a trader, hitches his horse to a tree, collects twigs
+            links:
+                fire: start a fire
+        fire:
+            plot: Peter hears a shuffling sound from a nearby bush
+            links:
+                bow: ready bow
+                sword: ready sword
+        bow:
+            plot: peter draws his bow, aims at the bush, and waits
+            links:
+                silence: silence
+        sword:
+            plot: peter unsheaths his sword making a loud sound
+            links:
+                bandits: suddenly
+        bandits:
+            plot: 5 bandits yell and attack from the bushes
+            links:
+                fight: fight the bandits
+                run: run away quickly
+        fight:
+            plot: Peter tries to fight all bandits at once, but is eventually overwhelmed and dies
+        run:
+            plot: peter runs away and hides in the forest. and waits in a bush until morning. he loses his horse and goods, but survives
+        silence:
+            plot: peter keeps waiting patiently.
+            links:
+                wait: keep waiting
+                bandits: check the bush
+        wait:
+            plot: more noises from the bush. peter thinks there are bandits hiding in it.
+            links:
+                sword: ready sword
+                run: run away quickly
+                slink: silently slink away
+        slink:
+            plot: Peter silently packs up his goods, unhitches his horse and slinks away into the forest. He feels glad to have outwitted the bandits.
+        
+        
+         

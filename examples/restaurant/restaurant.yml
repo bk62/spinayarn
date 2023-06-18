@@ -1,0 +1,61 @@
+story_outline:
+  title: "Greek Restaurant"
+  pov: first person
+  style: simple and clear
+  audience: young adults
+  central_theme:
+  tone: casually funny
+  pacing: slow and steady
+  setting: a busy greek restaurant
+  style_examples:
+    - >
+      Well, then this system sucks. What...one in a million gets to live in paradise
+      and everyone else is tortured for eternity? Come on! I mean, I wasn't freaking Gandhi, 
+      but I was okay. I was a medium person. I should get to spend eternity in a medium place! 
+      Like Cincinnati. Everyone who wasn't perfect but wasn't terrible should get to 
+      spend eternity in Cincinnati.
+  nodes:
+    start:
+      setting: A busy greek restaurant
+      characters: John, a doctor on break, and Cindy the hostess
+      plot: John enters the restaurant, greets the hostess
+      notes: visually describe the protagonist, John  
+      links: &order_links
+        pasta: order pasta
+        lasagna: order lasagna
+    pasta:
+      plot: the pasta arrives, but has a fly in it
+      links:
+        complain: complain to the waiter
+        ignore: remove the fly and continue eating
+    complain:
+      plot: the chef angrily kicks John out of the restaurant
+      end: True
+    ignore:
+      plot: John gets food poisoning
+      end: True
+    lasagna:
+      plot: the lasagna arrives, the chef asks how it tastes
+      links:
+        praise: praise the lasagna
+        complain: complain about the taste
+    praise:
+      plot: the chef is happy and gives John the pasta for free
+      links:
+        pasta: get a free pasta
+
+
+
+
+story:
+  title: "Greek Restaurant"
+  ifid:
+  format:
+  format-version:
+  start:
+  zoom:
+  nodes:
+    start:
+      text: ""
+      links:
+        link_to: link_text

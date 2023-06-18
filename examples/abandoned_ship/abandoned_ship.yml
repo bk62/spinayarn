@@ -1,0 +1,18 @@
+story_outline:
+  title: Abandoned Ship
+  pov: third person
+  setting: ancient abandoned ship in an asteroid belt
+  nodes:
+    start:
+      plot: Derek, a space miner, finds an abandoned ship. ship looks like ancient human tech
+      links:
+        closer: get closer
+    closer:
+      plot: he sees that the hull says NASA Hermes Mission 2500. He searches for a door, finds two locked ones.
+      links:
+        door1: enter door 1
+        door2: enter door 2
+    door1:
+      plot: big explosion. luckily Derek is rescued by other miners. ship wreck is lost.
+    door2:
+      plot: He finds a working ancient databank. Archaeologists in the nearest university thank Derek.
