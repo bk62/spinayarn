@@ -1,0 +1,56 @@
+{
+    "title": "Abandoned Ship",
+    "nodes": {
+        "start": {
+            "name": "start",
+            "text": "As I floated through the asteroid belt, scanning for valuable minerals, my trusty spacesuit crackling with static, I spotted something that made my heart race - an ancient, abandoned ship, its metal hull rusted and pitted from years of exposure to the harsh void.",
+            "links": {
+                "start__closer": {
+                    "link_to": "start__closer",
+                    "text": "get closer"
+                }
+            },
+            "plot": "Derek, a space miner, finds an abandoned ship. ship looks like ancient human tech",
+            "prompt": "Below is an instruction that describes a task, paired with an input that provides further context.\n### Instruction:\nYou are an AI writer who writes individual scenes for short stories from a plot outlines.\nYou writing style is simple and clear.\nThe story must be written in first person point of view.\nThe protagonist: TODO\nThe setting is: ancient abandoned ship in an asteroid belt\n\nWrite the opening paragraph of the story.\n\nYou will be given a prompt with short descriptions of the plot of the story.\nYou must then write a single paragraph with a maximum of 2 lines setting up the described scene using vivid and descriptive language.\n\nYour story must follow the plot exactly.\nThere should not be any incomplete sentences in the story.\n\nThe story must end abruptly where the text `END` appears in the plot.\n\n\n### Input:\nPlot: Derek, a space miner, finds an abandoned ship. ship looks like ancient human tech END\n\n### Response:"
+        },
+        "start__closer": {
+            "name": "start__closer",
+            "text": "As I approached the ancient abandoned ship, its rusted metal hull bearing the faded letters \"NASA Hermes Mission 2500,\" my heart raced with excitement and trepidation. With sweaty hands, I searched for a door, finding two locked ones that barred my way into the unknown depths of the ship's dark interior.",
+            "links": {
+                "start__closer__door1": {
+                    "link_to": "start__closer__door1",
+                    "text": "enter door 1"
+                },
+                "start__closer__door2": {
+                    "link_to": "start__closer__door2",
+                    "text": "enter door 2"
+                }
+            },
+            "plot": "he sees that the hull says NASA Hermes Mission 2500. He searches for a door, finds two locked ones.",
+            "prompt": "Below is an instruction that describes a task, paired with an input that provides further context.\n### Instruction:\nYou are an AI writer who writes individual scenes for short stories from a plot outlines.\nYou writing style is simple and clear.\nThe story must be written in first person point of view.\nThe protagonist: TODO\nThe setting is: ancient abandoned ship in an asteroid belt\n\nRead the following partially written story delimited by triple backticks\n```\nAs I floated through the asteroid belt, scanning for valuable minerals, my trusty spacesuit crackling with static, I spotted something that made my heart race - an ancient, abandoned ship, its metal hull rusted and pitted from years of exposure to the harsh void.\n```\nYour task will be to write the paragraph that comes after the above while following the given instructions and ensuring that details in the story are consistent.\n\nYou will be given a prompt with short descriptions of the plot of the story.\nYou must then write a single paragraph with a maximum of 2 lines setting up the described scene using vivid and descriptive language.\n\nYour story must follow the plot exactly.\nThere should not be any incomplete sentences in the story.\n\nThe story must end abruptly where the text `END` appears in the plot.\n\n\n### Input:\nPlot: he sees that the hull says NASA Hermes Mission 2500. He searches for a door, finds two locked ones. END\n\n### Response:"
+        },
+        "start__closer__door1": {
+            "name": "start__closer__door1",
+            "text": "As the asteroid belt was rocked by a massive explosion, Derek's heart pounded in his chest as he clung to the remains of his spaceship, desperately trying to stay afloat among the debris. It seemed like hours before other miners finally spotted him and pulled him from the wreckage, their voices blurred together in a haze of relief and adrenaline. Despite their efforts, the ship was lost forever, consumed by the flames that raged across the belt. Derek knew he had been lucky to escape with his life, but as he floated away from the disaster, he couldn't help but feel a pang of loss for the ship that had been his home for so long.",
+            "links": {},
+            "plot": "big explosion. luckily Derek is rescued by other miners. ship wreck is lost.",
+            "prompt": "Below is an instruction that describes a task, paired with an input that provides further context.\n### Instruction:\nYou are an AI writer who writes individual scenes for short stories from a plot outlines.\nYou writing style is simple and clear.\nThe story must be written in first person point of view.\nThe protagonist: TODO\nThe setting is: ancient abandoned ship in an asteroid belt\n\nRead the following partially written story delimited by triple backticks\n```\nAs I floated through the asteroid belt, scanning for valuable minerals, my trusty spacesuit crackling with static, I spotted something that made my heart race - an ancient, abandoned ship, its metal hull rusted and pitted from years of exposure to the harsh void.As I approached the ancient abandoned ship, its rusted metal hull bearing the faded letters \"NASA Hermes Mission 2500,\" my heart raced with excitement and trepidation. With sweaty hands, I searched for a door, finding two locked ones that barred my way into the unknown depths of the ship's dark interior.\n```\nYour task will be to write the paragraph that comes after the above while following the given instructions and ensuring that details in the story are consistent.\n\nYou will be given a prompt with short descriptions of the plot of the story.\nYou must then write a single paragraph with a maximum of 2 lines setting up the described scene using vivid and descriptive language.\n\nYour story must follow the plot exactly.\nThere should not be any incomplete sentences in the story.\n\nThe story must end abruptly where the text `END` appears in the plot.\n\n\n### Input:\nPlot: big explosion. luckily Derek is rescued by other miners. ship wreck is lost. END\n\n### Response:"
+        },
+        "start__closer__door2": {
+            "name": "start__closer__door2",
+            "text": "As he floated through the asteroid belt, scanning for valuable minerals, his trusty spacesuit crackling with static, Derek stumbled upon something that would change his life forever - a working ancient databank, its glowing lights and whirring mechanisms a stark contrast to the dark void of space around it. With shaking hands, he accessed the database, discovering information about a long-lost mission from centuries ago. Excitement coursed through him as he realized what he had found - evidence of an ancient civilization that had long since vanished. He knew he couldn't keep this discovery to himself, and with a sense of purpose, he steered his spaceship towards the nearest university, where archaeologists would thank Derek for bringing them one step closer to unlocking the secrets of the past.",
+            "links": {},
+            "plot": "He finds a working ancient databank. Archaeologists in the nearest university thank Derek.",
+            "prompt": "Below is an instruction that describes a task, paired with an input that provides further context.\n### Instruction:\nYou are an AI writer who writes individual scenes for short stories from a plot outlines.\nYou writing style is simple and clear.\nThe story must be written in first person point of view.\nThe protagonist: TODO\nThe setting is: ancient abandoned ship in an asteroid belt\n\nRead the following partially written story delimited by triple backticks\n```\nAs I floated through the asteroid belt, scanning for valuable minerals, my trusty spacesuit crackling with static, I spotted something that made my heart race - an ancient, abandoned ship, its metal hull rusted and pitted from years of exposure to the harsh void.As I approached the ancient abandoned ship, its rusted metal hull bearing the faded letters \"NASA Hermes Mission 2500,\" my heart raced with excitement and trepidation. With sweaty hands, I searched for a door, finding two locked ones that barred my way into the unknown depths of the ship's dark interior.\n```\nYour task will be to write the paragraph that comes after the above while following the given instructions and ensuring that details in the story are consistent.\n\nYou will be given a prompt with short descriptions of the plot of the story.\nYou must then write a single paragraph with a maximum of 2 lines setting up the described scene using vivid and descriptive language.\n\nYour story must follow the plot exactly.\nThere should not be any incomplete sentences in the story.\n\nThe story must end abruptly where the text `END` appears in the plot.\n\n\n### Input:\nPlot: He finds a working ancient databank. Archaeologists in the nearest university thank Derek. END\n\n### Response:"
+        }
+    },
+    "type": "generated",
+    "pov": "third person",
+    "style": "simple and clear",
+    "audience": "",
+    "central_theme": "",
+    "tone": "",
+    "pacing": "",
+    "setting": "ancient abandoned ship in an asteroid belt",
+    "style_examples": []
+}

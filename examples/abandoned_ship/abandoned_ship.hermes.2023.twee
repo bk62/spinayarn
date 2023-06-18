@@ -1,0 +1,27 @@
+:: StoryTitle
+Abandoned Ship
+
+:: StoryData
+{
+  "ifid": "82cd700e-0e24-11ee-8068-0242ac1c000c",
+  "format": "Chapbook",
+  "format-version": "1.2.3",
+  "start": "start",
+  "zoom": 1
+}
+
+:: start
+As I floated through the asteroid belt, scanning for valuable minerals, my trusty spacesuit crackling with static, I spotted something that made my heart race - an ancient, abandoned ship, its metal hull rusted and pitted from years of exposure to the harsh void.
+[[get closer|start__closer]]
+
+:: start__closer
+As I approached the ancient abandoned ship, its rusted metal hull bearing the faded letters "NASA Hermes Mission 2500," my heart raced with excitement and trepidation. With sweaty hands, I searched for a door, finding two locked ones that barred my way into the unknown depths of the ship's dark interior.
+[[enter door 1|start__closer__door1]]
+[[enter door 2|start__closer__door2]]
+
+:: start__closer__door1
+As the asteroid belt was rocked by a massive explosion, Derek's heart pounded in his chest as he clung to the remains of his spaceship, desperately trying to stay afloat among the debris. It seemed like hours before other miners finally spotted him and pulled him from the wreckage, their voices blurred together in a haze of relief and adrenaline. Despite their efforts, the ship was lost forever, consumed by the flames that raged across the belt. Derek knew he had been lucky to escape with his life, but as he floated away from the disaster, he couldn't help but feel a pang of loss for the ship that had been his home for so long.
+
+:: start__closer__door2
+As he floated through the asteroid belt, scanning for valuable minerals, his trusty spacesuit crackling with static, Derek stumbled upon something that would change his life forever - a working ancient databank, its glowing lights and whirring mechanisms a stark contrast to the dark void of space around it. With shaking hands, he accessed the database, discovering information about a long-lost mission from centuries ago. Excitement coursed through him as he realized what he had found - evidence of an ancient civilization that had long since vanished. He knew he couldn't keep this discovery to himself, and with a sense of purpose, he steered his spaceship towards the nearest university, where archaeologists would thank Derek for bringing them one step closer to unlocking the secrets of the past.
+
