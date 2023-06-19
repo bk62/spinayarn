@@ -206,7 +206,36 @@ In practice, getting the text to be perfect is difficult to say the least. Requi
 
 A YAML spec for specifying interactive story outlines.
 
+This document specified a file format used to define story outlines meant for "story retelling"/generation by LLMs.
+
+### Interactive Story Outline Model
+
+Interactive stories consist of various attributes like title and point of view (pov) and a dictionary of nodes. Each node corresponds to a unit of text in the interactive story meant to be displayed on a single screen or page depending on the story display format. Each node consists of a plot outline, any generated text, and a dictionary enumerating other nodes it links to -- corresponding to the nodes you can visit or "choose" from it.
+
+Interactive stories may also be thought of as directed graphs. Spinayarn assumes that every interactive story has a single starting point node called "start".
+
+TODO: It is unclear to me what if any issues might arise when generating stories from outlines that correspond to cyclic graphs.
+
+Tree structures and DAG structures, on the other hand, should be well behaved!
+
+### Illustrative Example
+
 TODO
+
+### Story Outline Top-level Element
+All outline specs must have `story_outline` as the root key.
+
+### Nodes
+All story outlines must have a `nodes` key containing a dictionary (i.e. a map) keyed by the node name.
+
+#### Start Nodes
+All story outlines must have a single starting node named `start`. Generated stories always start at this node.
+
+#### Links
+Nodes specify links to other nodes by adding `linked_node_name: text_to_link_with` key value pairs to `links` dictionary.
+
+#### End Nodes
+Any node with an empty `links` dictionary is assumed to be an end node -- corresponding to one way for the story to end.
 
 
 ### Example Outlines
