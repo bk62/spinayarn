@@ -1,0 +1,75 @@
+:: StoryTitle
+Greek Restaurant
+
+:: StoryData
+{
+  "ifid": "f785b95a-0df8-11ee-952d-0242ac1c000c",
+  "format": "Chapbook",
+  "format-version": "1.2.3",
+  "start": "start",
+  "zoom": 1
+}
+
+:: start
+I could feel the heat of the busy Greek restaurant washing over me as I walked through the door. The aroma of garlic and herbs filled my nostrils as I scanned the room for a place to sit.
+[[choose seating at table 1|start__table_1]]
+[[choose seating at table 2|start__table_2]]
+
+:: start__table_1
+As I entered the bustling Greek restaurant, the smell of garlic and herbs wafted through the air, assaulting my nostrils. The heat from the busy kitchen seemed to radiate from every surface, leaving beads of sweat on my brow. As I scanned the room for a place to sit, my gaze landed on a young waitress, her name tag reading "Lisa." She approached me with a friendly smile and handed me a menu, her eyes lingering on mine for just a moment too long.
+[[order pasta|start__table_1__pasta]]
+[[order lasagna|start__table_1__lasagna]]
+
+:: start__table_2
+As I sat down at the bustling Greek restaurant, the smell of garlic and herbs overwhelmed my senses. I glanced around, searching for a waiter to take my order. Suddenly, one appeared out of the crowd - Charlie, with a friendly smile and a menu in hand. "Welcome to our restaurant," he said, his voice smooth like melted feta cheese. I scanned the options, torn between the classic pasta dishes and the rich lasagna. With Charlie's help, I made my decision and settled on a plate of spaghetti carbonara.
+[[order pasta|start__table_2__pasta]]
+[[order lasagna|start__table_2__lasagna]]
+
+:: start__table_1__pasta
+As I sat down at my table, a plate of steaming pasta was placed in front of me. My hunger overcame any hesitation I may have had, and I dug into the dish with gusto. But as I took a bite, my joy turned to disgust as a fly wriggled its way out from between my teeth.
+[[complain to the waiter|start__table_1__pasta__complain]]
+[[remove the fly and continue eating|start__table_1__pasta__ignore]]
+
+:: start__table_2__pasta
+As I savored the rich flavors of my spaghetti carbonara, a fly landed on my plate. I tried to brush it away, but it was too late - it had already made its way into my mouth. I gagged, feeling the weight of the insect as it settled in my throat.
+[[complain to the waiter|start__table_2__pasta__complain]]
+[[remove the fly and continue eating|start__table_2__pasta__ignore]]
+
+:: start__table_1__pasta__complain
+As I walked through the bustling Greek restaurant, the clatter of plates and the chatter of patrons filled my ears. The smell of garlic and herbs was overpowering, but it only served to heighten my hunger. As I took a seat at a table near the window, a young waitress approached me with a friendly smile and handed me a menu. I ordered a plate of pasta, eager to sample the restaurant's cuisine. But as I dug into the dish with gusto, I suddenly felt a strange sensation in my mouth. To my horror, a fly wriggled its way out from between my teeth, sending me into a fit of disgust.
+
+:: start__table_2__pasta__complain
+As I sat at the busy Greek restaurant, enjoying my spaghetti carbonara, the smell of garlic and herbs filled my nostrils. Suddenly, a loud commotion caught my attention. The chef had spotted a fly on one of the plates and was visibly furious. He barked orders at the waiters, who scurried to comply. Before I knew it, the chef had stormed over to our table and angrily kicked me out of the restaurant.
+
+:: start__table_1__lasagna
+As I took a bite of the velvety lasagna before me, the cheese oozing out and combining with the rich tomato sauce, I couldn't help but feel like I had died and gone to heaven. Suddenly, the chef appeared from behind the counter, wiping his hands on his apron as he surveyed my plate. "How is it?" he asked, his accent thick and warm.
+[[praise the lasagna|start__table_1__lasagna__praise]]
+[[complain about the taste|start__table_1__lasagna__complain]]
+
+:: start__table_1__lasagna__complain
+As I tried to enjoy my meal, the sound of raised voices from the kitchen drew my attention away from my plate. The chef had emerged, his face red with anger as he shouted at someone outside of my line of sight. My heart raced as I realized that he must be yelling at John, the young waitress who had seated me earlier. Unable to bear the tension any longer, I fled the restaurant, my appetite completely gone.
+
+:: start__table_2__lasagna
+The moment I took a bite of the lasagna, my taste buds were transported to a whole new level of culinary bliss. The rich tomato sauce mingled with the creamy ricotta cheese, while the tender lasagna noodles melting in my mouth made it an unforgettable experience. 
+As I savored each bite, I couldn't help but feel a sense of anticipation building up inside me - what would the chef think of his creation? Would he be pleased with the way it turned out or would there be room for improvement? My thoughts were cut short as the chef himself appeared by my side, a wide smile spreading across his face. 
+"How is the lasagna?" he asked, his eyes twinkling with excitement. "It's amazing," I replied, trying my best to sound sincere. "The tomato sauce and ricotta cheese work together perfectly, and the noodles are cooked to perfection." The chef beamed with pride, obviously pleased with my feedback. "Thank you," he said, before walking away to tend to other customers.
+[[praise the lasagna|start__table_2__lasagna__praise]]
+[[complain about the taste|start__table_2__lasagna__complain]]
+
+:: start__table_2__lasagna__complain
+I watched in horror as the chef's face turned red with anger, his eyes narrowing as he glared at me. Before I could even think to defend myself, he barked out an order for me to leave the restaurant, his tone brooking no argument. My heart sank as I realized that my love for the chef's cooking had led me down a dangerous path.
+
+:: start__table_1__pasta__ignore
+John gobbled down his spaghetti with such fervor that he barely noticed the sour taste that lingered on his tongue. But as he washed it down with a glass of water, he felt a sense of unease creeping up inside him. It started with a tightness in his chest and a queasy sensation in his stomach, growing stronger until it became unbearable. He raced to the bathroom just in time to violently expel the contents of his stomach into the toilet.
+
+:: start__table_2__pasta__ignore
+John woke up feeling nauseous, his stomach churning with a fiery intensity. He rushed to the bathroom just in time to vomit a foul-smelling liquid onto the cold tiles. As he collapsed back onto his bed, he realized that the source of his illness was the Greek restaurant he had visited the night before. The thought of ever eating there again made him cringe with disgust.
+
+:: start__table_1__lasagna__praise
+As I savored each bite of the delectable lasagna, the chef approached me with a wide grin on his face. "I saw you enjoying my food," he said, reaching into the kitchen and producing another plate of the same dish. "On the house," he added, placing it in front of me before disappearing back into the kitchen. I couldn't help but feel grateful for his generosity and the warmth that seemed to emanate from every corner of the restaurant.
+[[get a free pasta|start__table_1__lasagna__praise__pasta]]
+
+:: start__table_2__lasagna__praise
+As I savored each bite of the lasagna, the chef himself appeared by my side, a wide smile spreading across his face. "How is the lasagna?" he asked, his eyes twinkling with excitement. "It's amazing," I replied, trying my best to sound sincere. To my surprise, he beamed with pride and said, "Thank you." Then, to my even greater shock, he handed me a plate of pasta for free.
+[[get a free pasta|start__table_2__lasagna__praise__pasta]]
+
