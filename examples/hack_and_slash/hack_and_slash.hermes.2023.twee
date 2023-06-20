@@ -1,0 +1,83 @@
+:: StoryTitle
+Hack and Slash
+
+:: StoryData
+{
+  "ifid": "be1b92dc-0f35-11ee-a0bd-0242ac1c000c",
+  "format": "Chapbook",
+  "format-version": "1.2.3",
+  "start": "start",
+  "zoom": 1
+}
+
+:: start
+Peter, a weary traveler, had been journeying through the dark medieval forest for hours on end, his eyes straining against the murky darkness that enveloped him. As he stumbled along the overgrown path, he could hear the distant howls of wolves and the occasional rustling of leaves in the underbrush. It was then that he spotted a glimmer of light up ahead, which he hoped would lead him to safety. Clutching his satchel tightly, he made his way towards the light, only to find himself standing at the edge of an old Roman road.
+[[start a fire|start__fire]]
+
+:: start__fire
+As Peter cautiously made his way down the old Roman road, his eyes scanning the area for any signs of danger, he heard a faint shuffling sound coming from a nearby bush. His heart raced as he realized that he was not alone in this dark and foreboding forest.
+[[ready bow|start__fire__bow]]
+[[ready sword|start__fire__sword]]
+
+:: start__fire__bow
+As Peter cautiously made his way down the old Roman road, his eyes scanning the area for any signs of danger, he heard a faint shuffling sound coming from a nearby bush. His heart raced as he realized that he was not alone in this dark and foreboding forest. Slowly, he drew his bow, notching an arrow and aiming it at the source of the noise. Time seemed to stand still as Peter waited, ready to defend himself if necessary. But what would come next? Only time would tell.
+[[silence|start__fire__bow__silence]]
+
+:: start__fire__bow__silence
+Peter stood motionless, his arrow trained on the source of the noise. The shuffling had stopped, leaving only the sound of his own breathing. As he strained to listen, he heard a faint rustle in the bushes behind him. His hand trembled as he reached for an additional arrow, ready to defend himself against whatever was lurking in the darkness.
+[[keep waiting|start__fire__bow__silence__wait]]
+[[check the bush|start__fire__bow__silence__bandits]]
+
+:: start__fire__bow__silence__wait
+As Peter stood motionless, his arrow trained on the source of the noise, he heard more noises coming from the bushes behind him. His heart raced as he thought to himself that there must be bandits hiding in them, ready to pounce at any moment. Time seemed to stand still as he weighed his options, wondering if he should make a run for it or stay and fight.
+[[ready sword|start__fire__bow__silence__wait__sword]]
+[[run away quickly|start__fire__bow__silence__wait__run]]
+[[silently slink away|start__fire__bow__silence__wait__slink]]
+
+:: start__fire__bow__silence__wait__sword
+As Peter cautiously made his way down the old Roman road, his eyes scanning the area for any signs of danger, he heard a faint shuffling sound coming from a nearby bush. His heart raced as he realized that he was not alone in this dark and foreboding forest. Slowly, he drew his sword, unsheathing it with a loud metallic clang that echoed through the silence of the night. With his weapon at the ready, Peter braced himself for whatever might come next.
+[[suddenly|start__fire__bow__silence__wait__sword__bandits]]
+
+:: start__fire__sword
+Peter's heart raced as he unsheathed his sword, the metal gleaming in the faint moonlight. The shuffling sounds grew louder, and he knew that he had to act fast. He took a deep breath and stepped forward, ready to face whatever dangers lay ahead.
+[[suddenly|start__fire__sword__bandits]]
+
+:: start__fire__bow__silence__wait__sword__bandits
+As Peter stood motionless, his arrow trained on the source of the noise, he heard more noises coming from the bushes behind him. His heart raced as he thought to himself that there must be bandits hiding in them, ready to pounce at any moment. Time seemed to stand still as he weighed his options, wondering if he should make a run for it or stay and fight. Suddenly, without warning, the bushes erupted into chaos as five bandits burst forth, yelling and brandishing their weapons. Peter knew that he was outnumbered and outgunned, but he refused to go down without a fight. As the bandits closed in around him, he braced himself for the coming battle.
+[[fight the bandits|start__fire__bow__silence__wait__sword__bandits__fight]]
+[[run away quickly|start__fire__bow__silence__wait__sword__bandits__run]]
+
+:: start__fire__bow__silence__bandits
+As Peter stood motionless, his arrow trained on the source of the noise, he heard a sudden chorus of shouts and the sound of branches snapping as five bandits emerged from the underbrush, brandishing their weapons. Panic surged through him as he realized that he was completely outnumbered and outgunned. His heart pounded as he frantically searched for an escape route, but it seemed as though the bandits had surrounded him on all sides. Time seemed to slow to a crawl as Peter weighed his options, knowing that his life hung in the balance.
+[[fight the bandits|start__fire__bow__silence__bandits__fight]]
+[[run away quickly|start__fire__bow__silence__bandits__run]]
+
+:: start__fire__sword__bandits
+The moon cast an eerie glow over the forest, illuminating the thick underbrush as Peter made his way down the old Roman road. Suddenly, a chorus of shouting erupted from the bushes, followed by the sound of swords clashing against leather armor.
+[[fight the bandits|start__fire__sword__bandits__fight]]
+[[run away quickly|start__fire__sword__bandits__run]]
+
+:: start__fire__bow__silence__wait__sword__bandits__fight
+As the bandits closed in around him, Peter drew his sword and prepared for battle. With their numbers too great to overcome, he knew that his end was near. He fought bravely, taking down two of the bandits before finally succumbing to their relentless attacks. As he lay dying on the old Roman road, he wondered if anyone would ever find his body in this dark and foreboding forest.
+
+:: start__fire__bow__silence__bandits__fight
+As Peter stood motionless, his arrow trained on the source of the noise, he heard a sudden chorus of shouts and the sound of branches snapping as five bandits emerged from the underbrush, brandishing their weapons. Panic surged through him as he realized that he was completely outnumbered and outgunned. His heart pounded as he frantically searched for an escape route, but it seemed as though the bandits had surrounded him on all sides. Time seemed to slow to a crawl as Peter weighed his options, knowing that his life hung in the balance. He knew that he couldn't fight all of them at once and was sure to lose. With one last gasp of air, he closed his eyes and prepared for the end.
+
+:: start__fire__sword__bandits__fight
+In the darkness of the medieval forest, Peter stood his ground against a group of marauding bandits, his sword ready to strike. The sounds of clashing swords filled the air as he fought valiantly, taking down several enemies in quick succession. But despite his best efforts, he was eventually overwhelmed by their sheer numbers and fell to the ground, gasping for breath as the life drained from his body. As the bandits closed in around him, Peter knew that this would be his last stand.
+
+:: start__fire__bow__silence__wait__sword__bandits__run
+Peter's heart raced as he stumbled through the dark forest, desperately trying to evade the bandits who were hot on his trail. With sweat pouring down his face and his lungs burning from exertion, he knew that he couldn't keep going much longer. Spotting a dense bush up ahead, he ducked behind it, hoping to avoid detection until morning. As he huddled there in the darkness, he could hear the sounds of the bandits searching for him growing fainter and fainter. But what would come next? Only time would tell.
+
+:: start__fire__bow__silence__wait__run
+Peter had barely escaped with his life after being chased by bandits through the dark medieval forest. His horse had been seized, and all his goods stolen, leaving him alone and destitute in the midst of the impenetrable woods. With nowhere else to turn, he took refuge in a nearby bush, huddled against the cold night air. Wrapping himself in his cloak, he closed his eyes and prayed for dawn's first light, hoping that it would bring with it some measure of safety and solace.
+
+:: start__fire__bow__silence__bandits__run
+The dense foliage of the forest enveloped Peter as he crouched low in the bushes, his heart racing with fear and adrenaline. The moon provided little light, casting deep shadows that seemed to close in around him like a noose. He could hear the distant howls of wolves and the occasional rustling of leaves in the underbrush, but otherwise, all was silent. Time seemed to stand still as he waited for morning, hoping against hope that he would survive this terrifying ordeal.
+
+:: start__fire__sword__bandits__run
+Peter's heart raced as he realized that he had no choice but to flee from the band of mercenaries who were chasing him through the dark medieval forest. He ran as fast as he could, ducking behind trees and bushes in an attempt to avoid their gaze. As he was about to collapse from exhaustion, he spotted a thick cluster of brambles that would provide the perfect hiding spot. With a swift motion, Peter slipped into the thorny undergrowth and braced himself for a long night ahead.
+
+:: start__fire__bow__silence__wait__slink
+Peter had just barely escaped the clutches of the bandits who had been lurking in the bushes, waiting to pounce on unsuspecting travelers like himself. His heart raced as he hurried through the dark forest, leaving the scene of his narrow escape behind him. He couldn't help but feel a sense of relief mixed with fear, knowing that he had outwitted them this time, but also aware that there were many more dangers lurking in the shadows ahead. As he urged his horse onwards, his eyes scanning the area for any signs of danger, he knew that he had to stay alert and vigilant if he was going to make it out of this forest alive.
+
